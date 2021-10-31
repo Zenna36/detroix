@@ -1,0 +1,340 @@
+/* Global elements start */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /* width: 960px; */
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family: 'Oswald', sans-serif;
+    background-color: #f5f5f7;
+}
+
+.sr-only /*screen reader*/{
+    position: absolute;
+    left: -100000px;
+}
+
+a {
+    text-decoration: none;
+    color:#4b6eac;
+    text-transform: uppercase;
+}
+
+.clear {
+    clear: both;
+}
+
+section {
+    width: 960px;
+    margin: 0 auto;
+}
+
+button.button {
+    text-transform: uppercase;
+    color: white;
+    padding: 10px 12px;
+    border-radius: 8px;
+    background-color: #1A1A72;
+}
+/* global elements end */
+
+/* ------------------------------------------------------- */
+
+/* Header elements start */
+
+.header .inner {
+    width: 960px;
+    margin: 0 auto;
+    background-color: #121e2c;
+}
+
+.top-header {
+    background-color: #121e2c;
+    /* give background color to the top header and give width to the main header */
+}
+
+/* .top-header inner {
+    width: 960px;
+    background-color: #121e2c;
+} */
+
+.header .top-link {
+    float: left;
+}
+
+.header .top-link {
+    margin: 5px;
+    padding: 0 0 0 0;
+}
+
+.header .top-nav {
+    float: right;
+}
+
+li {
+    display: inline;
+}
+
+
+div.top-nav ul li:not(:last-child):after {
+    content: "|";
+}
+
+.logo {
+    float: left;
+}
+
+.main-header {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.main-header nav {
+    float: right;
+}
+
+.main-header .nav ul {
+    float: right;
+    margin: 0 auto;
+    padding: 40px 10px 40px 40px;
+    /* margin: 0 80px 0 0; */
+}
+
+.main-header .nav li {
+    display: inline-block;
+}
+
+.main-header .nav li a {
+    color: rgb(255, 245, 245);
+    background-color: rgb(26, 26, 114);
+    padding: 12px 14px;
+    border-radius: 6px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.main-header .nav li:first-child a {
+    background-color: orange;
+}
+
+.main-header .nav li a:hover{
+    background-color: orange;
+}
+
+/* header elements end */
+
+/* --------------------------------------------------- */
+
+/* Main elements start */
+
+main.main {
+    padding: 0 0 40px 0;
+}
+
+main.main p {
+    color: grey;
+}
+
+main.main h2.block-header {
+    text-transform: uppercase;
+    color: rgb(28, 28, 116);
+    font-size: 37px;
+}
+.section1 .block2 {
+    text-align: center;
+    padding: 15px 0 15px 0;
+}
+
+.main .section1 .block2 {
+    display: inline-block;
+}
+
+div.block2 {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.main .section1 .block2 li a {
+    padding: 8px 18px;
+    background-color:grey;
+    border-radius: 50%;
+}
+
+.main .section1 .block2 li:first-child a{
+    background-color: orange;
+}
+
+.main .section1 .block2 li a:hover{
+    background-color: orange;
+}
+
+div.block1 img {
+    border-radius: 10px;
+    margin: 5px 10px;
+}
+
+div.block2 img {
+    border-radius: 10px;
+    margin: 5px 10px;
+}
+
+div.block3 img {
+    border-radius: 10px;
+    margin: 5px 10px;
+}
+
+main.main .block {
+    border-top: grey solid 2px;
+    display: inline-block;
+    width: calc(100% / 3);
+}
+
+main.main .block {
+    display: block;
+    float: left;
+    padding: 0 10px 0 10px;
+}
+
+/* main elements end */
+
+/* ---------------------------------------------------------- */
+
+/* footer start */
+
+
+footer.footer h2.sub-header {
+    color: whitesmoke;
+    text-align: left;
+    text-transform: uppercase;
+    margin: 0 10px 5px 10;
+}
+
+.footer.footer h3.opportunities-sub-header {
+    color: rgb(250, 248, 248);
+    text-transform: uppercase;
+    text-align: left;
+    margin: 10px 0 5px 0;
+}
+
+footer.footer h3.news-sub-header {
+    color: rgb(250, 244, 244); /* Red color so I can distinguish it from the other lines of text */
+    text-transform: uppercase;
+    text-align: left;
+    margin: 0 0 5px 0;
+}
+
+/* .footer .block.block1 ul {
+    list-style-image: url('../media/cog.png');
+}
+
+.footer .block.block2 ul {
+    list-style-image: url('../media/chat.png');
+} */
+
+div.block {
+    display: inline-block;
+    width: calc(100% / 3);
+}
+
+div.block.block1 {
+    float: left;
+}
+
+div.block.block2 {
+    float: left;
+    padding: 0px;
+    /* text-align: left; */
+}
+
+div.block.block3 {
+    float: left;
+    /* text-align: left; */
+}
+
+footer p {
+    color: rgb(174, 197, 206);
+    text-align: left;
+}
+
+.footer .block3 ul {
+    padding: 0 auto;
+}
+
+.footer .block3 li {
+    margin-top: 10px;
+}
+
+.footer .block3 p, .footer .block3 h3 {
+    font-size: 14px;
+}
+
+.footer .block3 .date-div {
+    display: inline-block;
+    padding: 10px 15px 10px 15px;
+    margin: 0 0 25px 0 ;
+    border-radius: 9px;
+    background-color: #BC8646;
+    float: left;
+}
+
+.footer .block3 li:nth-child(2) .date-div {
+    background-color: #c4627c;
+}
+
+.footer .block3 li:nth-child(3) .date-div {
+    background-color: #c0415e;
+}
+
+.footer .block3 .date-div p {
+    margin: 0;
+    color: white;
+    text-align: center;
+    line-height: .9;
+}
+
+.footer .block3 .date-div .day{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.footer .block3 .date-div .month {
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 10px 0 0 0;
+}
+
+.footer .block3 .news-text {
+    float: right;
+    width: 78%;
+}
+
+.footer .section2 {
+    padding: 16px 0 40px 0;
+}
+
+.footer .section2 p {
+    margin: 0 auto;
+    color: white;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+footer {
+    background: rgb(41,70,102);
+    background: radial-gradient(ellipse at top, rgba(41,70,102,1) 0%, rgba(23,32,47,1) 50%, rgba(15,24,33,1) 100%);
+} 
+
+.section3 .block1 ul {
+    /* width: 313px; */
+    padding: 0px;
+    margin: 0px;
+    outline: 2px solid pink;
+} 
+
+.section3 .block1 ul img {
+    width: 300px;
+}
+
